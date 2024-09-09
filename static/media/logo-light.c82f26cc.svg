@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="125" viewBox="0 0 350 125">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 66.667px;
+        fill: #fffefe;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Arial;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        font-size: 75px;
+        fill: #4e5ca6;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="33" y="18" width="90" height="90" rx="25" ry="25"/>
+  <text id="Jatin" class="cls-2" x="158" y="86">Jatin</text>
+  <text id="J" class="cls-3" x="56" y="89">J</text>
+</svg>
