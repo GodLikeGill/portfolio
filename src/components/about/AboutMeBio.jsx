@@ -16,6 +16,7 @@ const AboutMeBio = () => {
 					<p
 						className="mb-4 text-ternary-dark dark:text-ternary-light text-lg"
 						key={bio.id}
+						style={{ whiteSpace: 'pre-wrap' }}
 					>
 						{bio.bio}
 					</p>

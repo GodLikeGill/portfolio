@@ -1,10 +1,14 @@
 export const aboutMeData = [
 	{
 		id: 1,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+		bio: 'Extremely passionate about coding and programming which is why I have a dream of working in a Tech Giant as a software developer. I started developing application from the age of 15, the fact that I could create softwares to help users encouraged me at every step in my future and went ahead and graduated in Computer Science Engineering. ',
 	},
 	{
 		id: 2,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+		bio: 'Finished studying at Humber College, and looking to find a Software Developer job where I can not only contribute my skill and knowledge but also enhance it to a better level.',
+	},
+	{
+		id: 3,
+		bio: 'Skills:\n\t• Java, Swift, Kotlin, C#, JavaScript, C++, React Native, HTML5, CSS\n\t• Android Studio, Xcode, Unity Engine, Intellij, Jira\n\t• Software Developer, Software Development, Mobile Developer, Unity Developer, FrontEnd Developer',
 	},
 ];
