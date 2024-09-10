@@ -12,7 +12,7 @@ import intellij from '../images/technologies/intellij.png';
 import javascript from '../images/technologies/javascript.png';
 import androidStudio from '../images/technologies/android-studio.png';
 
-export const clientsHeading = 'Some of the technologies I have worked on';
+export const clientsHeading = 'Some of the technologies I have worked on:';
 
 export const clientsData = [
 	{
