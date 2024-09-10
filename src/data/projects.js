@@ -3,6 +3,7 @@ import rentic from '../images/projects/rentic/rentic.png'
 import charitychain from '../images/projects/charitychain/main.png'
 import campsitebooker from '../images/projects/campsite-booker/main.png'
 import countrydetail from '../images/projects/country-detail/main.png'
+import chatbrewery from '../images/projects/chatbrewery/chatbrewery.png'
 import onchainInvesting from '../images/projects/onchain-investing/onchain-investing-1.jpg'
 
 
@@ -59,6 +60,17 @@ export const projectsData = [
 		ProjectHeader: {
 			title: 'Rentic',
 			publishDate: 'Oct 24, 2022',
+			tags: 'Android / Mobile / UI / Frontend',
+		},
+	},
+	{
+		id: 6,
+		title: 'ChatBrewery',
+		category: 'Android Mobile Application',
+		img: chatbrewery,
+		ProjectHeader: {
+			title: 'ChatBrewery',
+			publishDate: 'Aug 8, 2023',
 			tags: 'Android / Mobile / UI / Frontend',
 		},
 	},

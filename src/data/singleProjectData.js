@@ -21,9 +21,19 @@ import countrydetail1 from '../images/projects/country-detail/detail.png'
 import countrydetail3 from '../images/projects/country-detail/all.png'
 import countrydetail4 from '../images/projects/country-detail/favorite.png'
 
+import rentic from '../images/projects/rentic/rentic.png'
 import rentic1 from '../images/projects/rentic/rentic1.png'
 import rentic2 from '../images/projects/rentic/rentic2.png'
 import rentic3 from '../images/projects/rentic/rentic3.png'
+
+import chatbrewery from '../images/projects/chatbrewery/chatbrewery.png'
+import chatbrewery1 from '../images/projects/chatbrewery/chatbrewery1.png'
+import chatbrewery2 from '../images/projects/chatbrewery/chatbrewery2.png'
+import chatbrewery3 from '../images/projects/chatbrewery/chatbrewery3.png'
+import chatbrewery4 from '../images/projects/chatbrewery/chatbrewery4.png'
+import chatbrewery5 from '../images/projects/chatbrewery/chatbrewery5.png'
+import chatbrewery6 from '../images/projects/chatbrewery/chatbrewery6.png'
+
 // Import icons
 import {
 	FiFacebook,
@@ -79,10 +89,8 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 1, title: 'CharityChain', img: charitychain },
-				{ id: 2, title: 'Country Detail', img: countrydetail },
-				{ id: 3, title: 'Campsite Booker', img: campsitebooker },
-				{ id: 4, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 5, title: 'Rentic', img: rentic },
+				{ id: 6, title: 'ChatBrewery', img: chatbrewery },
 			],
 		},
 	},
@@ -134,10 +142,7 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
-				{ id: 2, title: 'Country Detail', img: countrydetail },
 				{ id: 3, title: 'Campsite Booker', img: campsitebooker },
-				{ id: 4, title: 'CharityChain', img: charitychain },
 			],
 		},
 	},
@@ -190,10 +195,7 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
 				{ id: 2, title: 'CharityChain', img: charitychain },
-				{ id: 3, title: 'Country Detail', img: countrydetail },
-				{ id: 4, title: 'Campsite Booker', img: campsitebooker },
 			],
 		},
 	},
@@ -301,9 +303,68 @@ export const singleProjectData = [
 			title: 'Related Projects',
 			Projects: [
 				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
-				{ id: 2, title: 'CharityChain', img: charitychain },
-				{ id: 3, title: 'Campsite Booker', img: campsitebooker },
-				{ id: 4, title: 'Country Detail', img: countrydetail },
+				{ id: 6, title: 'ChatBrewery', img: chatbrewery },
+			],
+		},
+	},
+	{	
+		id: 6,
+		ProjectHeader: {
+			title: 'ChatBrewery',
+			publishDate: 'Aug 8, 2023',
+			tags: 'Android / Mobile / UI / Frontend',
+		},
+		ProjectImages: [{ img: chatbrewery1 }, { img: chatbrewery2 }, { img: chatbrewery3 }, { img: chatbrewery4 }, { img: chatbrewery5 }, { img: chatbrewery6 },],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: 
+			[
+				{ title: 'Name', details: 'Internship Project' },
+				{ title: 'Services', details: 'Android Application Development' },
+				{ title: 'Website', details: 'github.com/GodLikeGill/ChatBrewery'}
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'ChatBrewery is an Android application designed for users to conveniently send messages, manage profiles, and interact with friends through friend requests and real-time chat functionality, using Firebase for authentication and data management.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [ 'Java', 'Android Studio', 'Firebase Firestore' ],
+				},
+			],
+			ProjectDetailsHeading: 'Project Overview',
+			ProjectDetails: [
+				{ details: `Chat Brewery is a user-friendly Android-based chatting application that enables users to interact and communicate with their friends in real time. The app is designed to provide a smooth chatting experience, offering essential features like sending messages, managing profiles, and making connections through friend requests. The core focus of "Chat Brewery" is to create a streamlined, easy-to-use platform where users can quickly connect with others, making it an excellent tool for personal communication.` },
+				{ details: `Core Features:` },
+				{ details: `1. User Authentication & Database Management:\n• The app utilizes Firebase Authentication for user login and sign-up functionalities, ensuring secure access to the platform.\n• Firebase Database is used to manage all user data, including profiles, friends, and messages. This cloud-based solution allows for real-time data synchronization, ensuring quick and reliable access to chat functionalities.` },
+				{ details: `2. User Profiles (Editable):\n• Users can create and edit their profiles with basic information like their name, profile picture, and bio. This feature ensures that users can maintain an updated online presence, visible to friends within the app.` },
+				{ details: `3. Login/Sign-up System:\n• Users can easily create new accounts or log in to existing ones via Firebase Authentication, which supports email/password combinations or other authentication methods like Google sign-in.` },
+				{ details: `4. Friend Management (Send/Receive Friend Requests):\n• The app enables users to search for friends within the platform and send friend requests. Once a request is accepted, users can begin chatting with each other. Friend management is an essential aspect of the app, as it forms the basis for communication.` },
+				{ details: `5. Messaging System (Send/Receive Messages):\n• Once connected, users can send and receive real-time messages with their friends. This functionality is made possible by Firebase's real-time database, ensuring messages are delivered instantly and reliably.` },
+				{ details: `Tools & Technologies Used:` },
+				{ details: `1. Firebase Database:\n• A cloud-based NoSQL database that stores user profiles, messages, and friendships. Its real-time syncing capabilities ensure that all data is instantly available to users across various devices.` },
+				{ details: `2. Firebase Authentication:\n• Manages secure user login, sign-up, and session management processes. Firebase Authentication supports multiple authentication methods like email/password and third-party logins, providing flexibility and security.` },
+				{ details: `3. Android Studio:\n• The official Integrated Development Environment (IDE) for Android development, providing a robust environment to build, test, and deploy the app.` },
+				{ details: `4. Android SDK:\n• The app is designed for devices running Android version 5.1 or later, ensuring compatibility with a wide range of Android devices.` },
+				{ details: `Key Use Cases:` },
+				{ details: `1. User Registration & Profile Setup:\n• Users can quickly sign up for the platform, set up their profiles, and begin making connections.` },
+				{ details: `2. Friend Requests:\n• Users can send and receive friend requests to initiate communication with other app users.` },
+				{ details: `3. Real-Time Chatting:\n• Once connected as friends, users can engage in seamless, real-time conversations, sending and receiving messages instantly. ` },
+				{ details: `Conclusion:\nChat Brewery leverages the power of Firebase and Android development tools to offer a seamless chatting experience. By focusing on essential communication features like real-time messaging, editable profiles, and secure authentication, the app provides users with a modern and efficient way to stay connected with their friends.` },
+			],
+			SocialSharingHeading: 'Share This',
+			SocialSharing: [
+				{ id: 1, name: 'Twitter', icon: <FiTwitter />, url: 'https://twitter.com/' },
+				{ id: 2, name: 'Instagram', icon: <FiInstagram />, url: 'https://instagram.com/' },
+				{ id: 3, name: 'Facebook', icon: <FiFacebook />, url: 'https://facebook.com/' },
+				{ id: 4, name: 'LinkedIn', icon: <FiLinkedin />, url: 'https://linkedin.com/' },
+				{ id: 5, name: 'Youtube', icon: <FiYoutube />, url: 'https://www.youtube.com/' },
+			],
+		},
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 5, title: 'Rentic', img: rentic },
 			],
 		},
 	},
