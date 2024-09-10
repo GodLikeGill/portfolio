@@ -16,6 +16,12 @@ import campsitebooker1 from '../images/projects/campsite-booker/home.png'
 import campsitebooker2 from '../images/projects/campsite-booker/payment.png'
 import campsitebooker3 from '../images/projects/campsite-booker/resource.png'
 
+import countrydetail from '../images/projects/country-detail/main.png'
+import countrydetail1 from '../images/projects/country-detail/detail.png'
+import countrydetail2 from '../images/projects/country-detail/addtofavorite.png'
+import countrydetail3 from '../images/projects/country-detail/all.png'
+import countrydetail4 from '../images/projects/country-detail/favorite.png'
+
 // Import icons
 import {
 	FiFacebook,
@@ -72,7 +78,9 @@ export const singleProjectData = [
 			title: 'Related Projects',
 			Projects: [
 				{ id: 1, title: 'CharityChain', img: charitychain },
-				{ id: 2, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 2, title: 'Country Detail', img: countrydetail },
+				{ id: 3, title: 'Campsite Booker', img: campsitebooker },
+				{ id: 4, title: 'Onchain Investing', img: onchainInvesting1 },
 			],
 		},
 	},
@@ -125,7 +133,9 @@ export const singleProjectData = [
 			title: 'Related Projects',
 			Projects: [
 				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
-				{ id: 2, title: 'CharityChain', img: charitychain },
+				{ id: 2, title: 'Country Detail', img: countrydetail },
+				{ id: 3, title: 'Campsite Booker', img: campsitebooker },
+				{ id: 4, title: 'CharityChain', img: charitychain },
 			],
 		},
 	},
@@ -180,7 +190,63 @@ export const singleProjectData = [
 			Projects: [
 				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
 				{ id: 2, title: 'CharityChain', img: charitychain },
-				{ id: 2, title: 'Campsite Booker', img: campsitebooker },
+				{ id: 3, title: 'Country Detail', img: countrydetail },
+				{ id: 4, title: 'Campsite Booker', img: campsitebooker },
+			],
+		},
+	},
+	{	
+		id: 4,
+		ProjectHeader: {
+			title: 'Country Detail',
+			publishDate: 'Oct 24, 2022',
+			tags: 'iOS / UI / Frontend',
+		},
+		ProjectImages: [{ img: countrydetail1 }, { img: countrydetail3 }, { img: countrydetail4 }],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: 
+			[
+				{ title: 'Name', details: 'College Assignment' },
+				{ title: 'Services', details: 'iOS Development' },
+				{ title: 'Website', details: 'github.com/GodLikeGill/CountryDetail'}
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'This iOS app allows users to view, favorite, and explore detailed information about countries worldwide with a clean, user-friendly interface and map integration for capital cities.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [ 'Swift', 'Xcode', 'API' ],
+				},
+			],
+			ProjectDetailsHeading: 'Project Overview',
+			ProjectDetails: [
+				{ details: `This iOS application serves as a comprehensive tool for retrieving and displaying detailed information about all countries in the world. The app is designed with a clean, intuitive user interface, making it simple for users to explore global data and manage their favorite countries efficiently.` },
+				{ details: `Key Features:` },
+				{ details: `1. Country List Display:\nThe app presents a full list of countries, allowing users to easily browse through all available nations. Each country is displayed in a clean, organized format, ensuring a smooth user experience.` },
+				{ details: `2. Favoriting System:\nUsers can add countries to their Favorites list, enabling quick access to their preferred countries. Countries marked as favorites are visually distinct, with a different color to indicate their status.` },
+				{ details: `3. Sorting by Favorites:\nThe app includes a feature that allows users to sort the list by their favorite countries, making it easier to locate and manage them. This enhances user navigation and personalization of the app.` },
+				{ details: `4. Country Details Page:\nUpon selecting a country, users are directed to a Country Details section, where they can view in-depth information about the country. This section includes:\n• General information about the country.\n• A map that highlights the country with a pin on the capital city, adding visual context to the data.` },
+				{ details: `5. API Integration:\nThe app utilizes an API to retrieve up-to-date information on all countries. This ensures that users have access to the latest data, making the app both informative and dynamic.` },
+				{ details: `Technical Approach:\nThis project showcases the use of API integration in an iOS application, demonstrating how data can be retrieved from external sources and displayed in a structured, user-friendly format. The app leverages iOS frameworks for UI design, navigation, and data handling, ensuring a smooth and efficient experience.` },
+				{ details: `Summary:\nWith its ability to display all countries, manage favorite lists, and provide detailed information with map visuals, this app offers users an easy-to-use platform for exploring global data. Its focus on simplicity and functionality makes it a great example of API utilization in iOS development.` },
+			],
+			SocialSharingHeading: 'Share This',
+			SocialSharing: [
+				{ id: 1, name: 'Twitter', icon: <FiTwitter />, url: 'https://twitter.com/' },
+				{ id: 2, name: 'Instagram', icon: <FiInstagram />, url: 'https://instagram.com/' },
+				{ id: 3, name: 'Facebook', icon: <FiFacebook />, url: 'https://facebook.com/' },
+				{ id: 4, name: 'LinkedIn', icon: <FiLinkedin />, url: 'https://linkedin.com/' },
+				{ id: 5, name: 'Youtube', icon: <FiYoutube />, url: 'https://www.youtube.com/' },
+			],
+		},
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 2, title: 'CharityChain', img: charitychain },
+				{ id: 3, title: 'Campsite Booker', img: campsitebooker },
+				{ id: 4, title: 'Country Detail', img: countrydetail },
 			],
 		},
 	},
