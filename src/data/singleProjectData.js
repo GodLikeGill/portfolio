@@ -18,10 +18,12 @@ import campsitebooker3 from '../images/projects/campsite-booker/resource.png'
 
 import countrydetail from '../images/projects/country-detail/main.png'
 import countrydetail1 from '../images/projects/country-detail/detail.png'
-import countrydetail2 from '../images/projects/country-detail/addtofavorite.png'
 import countrydetail3 from '../images/projects/country-detail/all.png'
 import countrydetail4 from '../images/projects/country-detail/favorite.png'
 
+import rentic1 from '../images/projects/rentic/rentic1.png'
+import rentic2 from '../images/projects/rentic/rentic2.png'
+import rentic3 from '../images/projects/rentic/rentic3.png'
 // Import icons
 import {
 	FiFacebook,
@@ -200,7 +202,7 @@ export const singleProjectData = [
 		ProjectHeader: {
 			title: 'Country Detail',
 			publishDate: 'Oct 24, 2022',
-			tags: 'iOS / UI / Frontend',
+			tags: 'iOS / Mobile / UI / Frontend',
 		},
 		ProjectImages: [{ img: countrydetail1 }, { img: countrydetail3 }, { img: countrydetail4 }],
 		ProjectInfo: {
@@ -230,6 +232,61 @@ export const singleProjectData = [
 				{ details: `5. API Integration:\nThe app utilizes an API to retrieve up-to-date information on all countries. This ensures that users have access to the latest data, making the app both informative and dynamic.` },
 				{ details: `Technical Approach:\nThis project showcases the use of API integration in an iOS application, demonstrating how data can be retrieved from external sources and displayed in a structured, user-friendly format. The app leverages iOS frameworks for UI design, navigation, and data handling, ensuring a smooth and efficient experience.` },
 				{ details: `Summary:\nWith its ability to display all countries, manage favorite lists, and provide detailed information with map visuals, this app offers users an easy-to-use platform for exploring global data. Its focus on simplicity and functionality makes it a great example of API utilization in iOS development.` },
+			],
+			SocialSharingHeading: 'Share This',
+			SocialSharing: [
+				{ id: 1, name: 'Twitter', icon: <FiTwitter />, url: 'https://twitter.com/' },
+				{ id: 2, name: 'Instagram', icon: <FiInstagram />, url: 'https://instagram.com/' },
+				{ id: 3, name: 'Facebook', icon: <FiFacebook />, url: 'https://facebook.com/' },
+				{ id: 4, name: 'LinkedIn', icon: <FiLinkedin />, url: 'https://linkedin.com/' },
+				{ id: 5, name: 'Youtube', icon: <FiYoutube />, url: 'https://www.youtube.com/' },
+			],
+		},
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 2, title: 'CharityChain', img: charitychain },
+				{ id: 3, title: 'Campsite Booker', img: campsitebooker },
+				{ id: 4, title: 'Country Detail', img: countrydetail },
+			],
+		},
+	},
+	{	
+		id: 5,
+		ProjectHeader: {
+			title: 'Rentic',
+			publishDate: 'Oct 24, 2022',
+			tags: 'Android / Mobile / UI / Frontend',
+		},
+		ProjectImages: [{ img: rentic1 }, { img: rentic2 }, { img: rentic3 }],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: 
+			[
+				{ title: 'Name', details: 'College Project' },
+				{ title: 'Services', details: 'Android Application Development' },
+				{ title: 'Website', details: 'github.com/GodLikeGill/Rentic'}
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'Rentic is an Android app that allows users to rent items or post their own for rent, with features like user authentication, chat, and geolocation.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [ 'Java', 'Android Studio', 'Firebase Firestore' ],
+				},
+			],
+			ProjectDetailsHeading: 'Project Overview',
+			ProjectDetails: [
+				{ details: `Rentic is an Android application that provides a platform where users can either rent products from others or list their own items for rent. The app focuses on simplicity and functionality, featuring a clean and intuitive user interface that makes it easy for users to navigate, create rental ads, and connect with others in the community.` },
+				{ details: `Key Features:` },
+				{ details: `1. User Authentication & Database:\n• Users can sign up and log in to the app using Firebase Authentication. This ensures secure access to the platform and enables personalized user experiences.\n• Firebase Database is used to store user information, rental listings, and transaction history, providing a seamless way to manage data across the platform.` },
+				{ details: `2. Creating Rental Ads:\n• Users can list items they want to rent out by creating Rent Ads within the app. The process is simple and involves uploading product details such as descriptions, images, and rental prices, making it easy for others to browse and rent the item.` },
+				{ details: `3. Renting Products:\n• Users can browse and select products they wish to rent. The app includes a search and filter functionality, allowing users to easily find the items they need. Once an item is selected, users can initiate the rental process directly through the app.` },
+				{ details: `4. Chat Feature:\n• The in-app chat system allows users to communicate directly with each other. This feature is essential for negotiating rental terms, arranging delivery or pickup, and ensuring smooth interactions between the renter and the item owner.` },
+				{ details: `5. Geolocation Integration:\n• The app utilizes Geocoding to help users identify the location of available items for rent. This feature allows users to find nearby rentals and facilitates easier delivery and pickup logistics.` },
+				{ details: `Tools & Technologies Used:\n• Firebase Database: To store user profiles, rental listings, and chat data.\n• Firebase Authentication: For secure user sign-up, login, and account management.\n• Geocoding: For integrating location-based services to help users find local rental items.\n• Android Studio: The primary development environment for building and testing the application.\n• Android version 5.1 or later: Ensuring compatibility with a wide range of devices.` },
+				{ details: `Summary:\nRentic offers a user-friendly platform that simplifies the process of renting items or listing products for rent. With key features like secure user authentication, easy-to-create ads, a chat system, and geolocation services, this app is a comprehensive solution for anyone looking to rent or lend products. Built using modern tools such as Firebase and Android Studio, "Rentic" is optimized for Android devices running version 5.1 or later, making it accessible to a broad audience.` },
 			],
 			SocialSharingHeading: 'Share This',
 			SocialSharing: [

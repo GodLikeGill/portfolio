@@ -1,4 +1,5 @@
 // Import images
+import rentic from '../images/projects/rentic/rentic.png'
 import charitychain from '../images/projects/charitychain/main.png'
 import campsitebooker from '../images/projects/campsite-booker/main.png'
 import countrydetail from '../images/projects/country-detail/main.png'
@@ -45,9 +46,20 @@ export const projectsData = [
 		category: 'iOS Application',
 		img: countrydetail,
 		ProjectHeader: {
-			title: 'iOS Application',
+			title: 'Country Detail',
 			publishDate: 'Oct 24, 2022',
-			tags: 'UI / Frontend',
+			tags: 'iOS / Mobile / UI / Frontend',
+		},
+	},
+	{
+		id: 5,
+		title: 'Rentic',
+		category: 'Android Mobile Application',
+		img: rentic,
+		ProjectHeader: {
+			title: 'Rentic',
+			publishDate: 'Oct 24, 2022',
+			tags: 'Android / Mobile / UI / Frontend',
 		},
 	},
 ];
