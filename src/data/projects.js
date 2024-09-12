@@ -1,8 +1,9 @@
 // Import images
 import rentic from '../images/projects/rentic/rentic.png'
 import charitychain from '../images/projects/charitychain/main.png'
-import campsitebooker from '../images/projects/campsite-booker/main.png'
+import moviescape from '../images/projects/moviescape/moviescape.png'
 import countrydetail from '../images/projects/country-detail/main.png'
+import campsitebooker from '../images/projects/campsite-booker/main.png'
 import chatbrewery from '../images/projects/chatbrewery/chatbrewery.png'
 import onchainInvesting from '../images/projects/onchain-investing/onchain-investing-1.jpg'
 
@@ -27,7 +28,7 @@ export const projectsData = [
 		ProjectHeader: {
 			title: 'CharityChain',
 			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
+			tags: ' UI / Frontend',
 		},
 	},
 	{
@@ -72,6 +73,17 @@ export const projectsData = [
 			title: 'ChatBrewery',
 			publishDate: 'Aug 8, 2023',
 			tags: 'Android / Mobile / UI / Frontend',
+		},
+	},
+	{
+		id: 7,
+		title: 'MovieScape',
+		category: 'React Native Mobile Application',
+		img: moviescape,
+		ProjectHeader: {
+			title: 'MovieScape',
+			publishDate: 'Oct 25, 2022',
+			tags: 'React Native / Android / Mobile / UI / Frontend',
 		},
 	},
 ];

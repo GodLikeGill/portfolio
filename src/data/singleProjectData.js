@@ -34,6 +34,11 @@ import chatbrewery4 from '../images/projects/chatbrewery/chatbrewery4.png'
 import chatbrewery5 from '../images/projects/chatbrewery/chatbrewery5.png'
 import chatbrewery6 from '../images/projects/chatbrewery/chatbrewery6.png'
 
+import moviescape from '../images/projects/moviescape/moviescape.png'
+import moviescape1 from '../images/projects/moviescape/moviescape1.png'
+import moviescape2 from '../images/projects/moviescape/moviescape2.png'
+import moviescape3 from '../images/projects/moviescape/moviescape3.png'
+
 // Import icons
 import {
 	FiFacebook,
@@ -91,6 +96,7 @@ export const singleProjectData = [
 			Projects: [
 				{ id: 5, title: 'Rentic', img: rentic },
 				{ id: 6, title: 'ChatBrewery', img: chatbrewery },
+				{ id: 7, title: 'MovieScape', img: moviescape },
 			],
 		},
 	},
@@ -365,6 +371,61 @@ export const singleProjectData = [
 			Projects: [
 				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
 				{ id: 5, title: 'Rentic', img: rentic },
+				{ id: 7, title: 'MovieScape', img: moviescape },
+			],
+		},
+	},
+	{	
+		id: 7,
+		ProjectHeader: {
+			title: 'MovieScape',
+			publishDate: 'Oct 25, 2022',
+			tags: 'React Native / Android / Mobile / UI / Frontend',
+		},
+		ProjectImages: [{ img: moviescape1 }, { img: moviescape2 }, { img: moviescape3 },],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: 
+			[
+				{ title: 'Name', details: 'Internship Project' },
+				{ title: 'Services', details: 'Android Application Development' },
+				{ title: 'Website', details: 'github.com/GodLikeGill/MovieScape'}
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'Built a React Native app where users can log in, view current movies via API, purchase tickets, and track purchases. It uses Firebase Authentication and Firestore, with JavaScript as the core technology.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [ 'Java', 'Android Studio', 'Firebase Firestore' ],
+				},
+			],
+			ProjectDetailsHeading: 'Project Overview',
+			ProjectDetails: [
+				{ details: `The React Native Movie Ticket app is designed to provide users with a seamless experience for browsing, purchasing, and managing movie tickets. The application is developed using JavaScript and powered by Firebase for both authentication and data storage. It integrates with an external movie API to display up-to-date movie titles and relevant details for users to make informed decisions.` },
+				{ details: `Key Features:` },
+				{ details: `1. User Authentication:\n• Users can create accounts and securely log in using Firebase Authentication.\n• Firebase manages user credentials, ensuring secure sign-ups and logins, providing real-time authentication across devices.` },
+				{ details: `2. Home Page with Movie Listings:\n• After logging in, users are redirected to the home page, which displays a dynamic list of current movies.\n• Movie data is retrieved from a third-party API, ensuring the latest information about movie titles, showtimes, and other details is always available.` },
+				{ details: `3. Movie Ticket Purchase:\n• Users can select a movie and purchase tickets directly within the app.\n• Purchases are stored and tracked within the user's profile for easy access and reference.` },
+				{ details: `4. Purchase History:\n• Users can view all their past purchases on a dedicated screen, showing details of each ticket bought.\n• Firebase Firestore is used to store and retrieve user data, including past purchases, ensuring data persistence and accessibility across sessions.` },
+				{ details: `Technologies Used:` },
+				{ details: `• React Native: The core framework used to build the cross-platform app for both Android and iOS.\n• JavaScript: Primary programming language used for app development.\n• Firebase Authentication: Handles user registration and login functionality securely.\n• Firebase Firestore: Used to store user data, including account details and purchase history.\n• Movie API: Provides real-time movie data, including titles, descriptions, and other relevant information.` },
+				{ details: `Project Goals:\nThe goal of this project is to create a user-friendly and efficient platform for movie-goers to browse, purchase, and track movie tickets. By leveraging modern technologies like React Native and Firebase, the app ensures seamless functionality, strong security, and a smooth user experience across devices.` },
+			],
+			SocialSharingHeading: 'Share This',
+			SocialSharing: [
+				{ id: 1, name: 'Twitter', icon: <FiTwitter />, url: 'https://twitter.com/' },
+				{ id: 2, name: 'Instagram', icon: <FiInstagram />, url: 'https://instagram.com/' },
+				{ id: 3, name: 'Facebook', icon: <FiFacebook />, url: 'https://facebook.com/' },
+				{ id: 4, name: 'LinkedIn', icon: <FiLinkedin />, url: 'https://linkedin.com/' },
+				{ id: 5, name: 'Youtube', icon: <FiYoutube />, url: 'https://www.youtube.com/' },
+			],
+		},
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 5, title: 'Rentic', img: rentic },
+				{ id: 6, title: 'ChatBrewery', img: chatbrewery },
 			],
 		},
 	},
