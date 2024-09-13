@@ -1,31 +1,44 @@
 // Import images
+
+// Onchain Investing Images
 import onchainInvesting1 from '../images/projects/onchain-investing/onchain-investing-1.jpg'
 import onchainInvesting2 from '../images/projects/onchain-investing/onchain-investing-2.jpg'
 import onchainInvesting3 from '../images/projects/onchain-investing/onchain-investing-3.jpg'
 
-import charitychain from '../images/projects/charitychain/main.png'
-import charitychain1 from '../images/projects/charitychain/home.png'
-import charitychain2 from '../images/projects/charitychain/add-charity.png'
-import charitychain3 from '../images/projects/charitychain/charity-dashboard.png'
-import charitychain4 from '../images/projects/charitychain/donate.png'
-import charitychain5 from '../images/projects/charitychain/donations-list.png'
-import charitychain6 from '../images/projects/charitychain/signup.png'
+// EventScape Images
+import eventscape from '../images/projects/eventscape/eventscape.png'
+import eventscape1 from '../images/projects/eventscape/eventscape1.png'
+import eventscape2 from '../images/projects/eventscape/eventscape2.png'
+import eventscape3 from '../images/projects/eventscape/eventscape3.png'
+import eventscape4 from '../images/projects/eventscape/eventscape4.png'
+import eventscape5 from '../images/projects/eventscape/eventscape5.png'
+import eventscape6 from '../images/projects/eventscape/eventscape6.png'
+import eventscape7 from '../images/projects/eventscape/eventscape7.png'
+import eventscape8 from '../images/projects/eventscape/eventscape8.png'
+import eventscape9 from '../images/projects/eventscape/eventscape9.png'
+import eventscape10 from '../images/projects/eventscape/eventscape10.png'
+import eventscape11 from '../images/projects/eventscape/eventscape11.png'
+import eventscape12 from '../images/projects/eventscape/eventscape12.png'
 
+// Campsite Booker Images
 import campsitebooker from '../images/projects/campsite-booker/main.png'
 import campsitebooker1 from '../images/projects/campsite-booker/home.png'
 import campsitebooker2 from '../images/projects/campsite-booker/payment.png'
 import campsitebooker3 from '../images/projects/campsite-booker/resource.png'
 
+// CountryDetail Images
 import countrydetail from '../images/projects/country-detail/main.png'
 import countrydetail1 from '../images/projects/country-detail/detail.png'
 import countrydetail3 from '../images/projects/country-detail/all.png'
 import countrydetail4 from '../images/projects/country-detail/favorite.png'
 
+// Rentic Images
 import rentic from '../images/projects/rentic/rentic.png'
 import rentic1 from '../images/projects/rentic/rentic1.png'
 import rentic2 from '../images/projects/rentic/rentic2.png'
 import rentic3 from '../images/projects/rentic/rentic3.png'
 
+// ChatBrewery Images
 import chatbrewery from '../images/projects/chatbrewery/chatbrewery.png'
 import chatbrewery1 from '../images/projects/chatbrewery/chatbrewery1.png'
 import chatbrewery2 from '../images/projects/chatbrewery/chatbrewery2.png'
@@ -34,10 +47,20 @@ import chatbrewery4 from '../images/projects/chatbrewery/chatbrewery4.png'
 import chatbrewery5 from '../images/projects/chatbrewery/chatbrewery5.png'
 import chatbrewery6 from '../images/projects/chatbrewery/chatbrewery6.png'
 
+// MovieScape Images
 import moviescape from '../images/projects/moviescape/moviescape.png'
 import moviescape1 from '../images/projects/moviescape/moviescape1.png'
 import moviescape2 from '../images/projects/moviescape/moviescape2.png'
 import moviescape3 from '../images/projects/moviescape/moviescape3.png'
+
+// CharityChain Images
+import charitychain from '../images/projects/charitychain/main.png'
+import charitychain1 from '../images/projects/charitychain/home.png'
+import charitychain2 from '../images/projects/charitychain/add-charity.png'
+import charitychain3 from '../images/projects/charitychain/charity-dashboard.png'
+import charitychain4 from '../images/projects/charitychain/donate.png'
+import charitychain5 from '../images/projects/charitychain/donations-list.png'
+import charitychain6 from '../images/projects/charitychain/signup.png'
 
 // Import icons
 import {
@@ -52,7 +75,7 @@ export const singleProjectData = [
 	{	
 		id: 1,
 		ProjectHeader: {
-			title: 'Onchain Investment',
+			title: 'Onchain Investing',
 			publishDate: 'Jul 26, 2024',
 			tags: 'Android / Mobile / UI / Frontend',
 		},
@@ -94,6 +117,7 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
+				{ id: 2, title: 'EventScape', img: eventscape },
 				{ id: 5, title: 'Rentic', img: rentic },
 				{ id: 6, title: 'ChatBrewery', img: chatbrewery },
 				{ id: 7, title: 'MovieScape', img: moviescape },
@@ -103,38 +127,51 @@ export const singleProjectData = [
 	{	
 		id: 2,
 		ProjectHeader: {
-			title: 'CharityChain',
-			publishDate: 'Jul 26, 2023',
-			tags: 'UI / Frontend',
+			title: 'EventScape',
+			publishDate: 'Dec 09, 2022',
+			tags: 'Android / Mobile / UI / Frontend',
 		},
-		ProjectImages: [{ img: charitychain1 }, { img: charitychain2 }, { img: charitychain3 }, { img: charitychain4 }, { img: charitychain5 }, { img: charitychain6 }],
+		ProjectImages: [{ img: eventscape1 }, { img: eventscape2 }, { img: eventscape3 }, { img: eventscape4 }, { img: eventscape5 }, { img: eventscape6 }, { img: eventscape7 }, { img: eventscape8 }, { img: eventscape9 }, { img: eventscape10 }, { img: eventscape11 }, { img: eventscape12 }],
 		ProjectInfo: {
 			ClientHeading: 'About Client',
 			CompanyInfo: 
 			[
-				{ title: 'Name', details: 'Powell' },
-				{ title: 'Services', details: 'Blockchain Web Development' },
+				{ title: 'Name', details: 'Capstone Project' },
+				{ title: 'Services', details: 'Android Application Development' },
+				{ title: 'Website', details: 'https://github.com/GodLikeGill/EventScape' },
 			],
 			ObjectivesHeading: 'Objective',
-			ObjectivesDetails: 'Develop a secure blockchain-based donation platform that allows users and charities to log in, facilitating direct donations using cryptocurrency. The system ensures transparency, security, and traceability for all transactions, providing a trusted environment for charitable contributions.',
+			ObjectivesDetails: 'The objective of EventScape is to help users easily discover nearby events or concerts and conveniently purchase tickets through a user-friendly Android app.',
 			Technologies: [
 				{
 					title: 'Tools & Technologies',
-					techs: [ 'Javascript', 'CSS', 'HTML', 'Firebase Firestore' ],
+					techs: [ 'Java', 'Android', 'Android Studio', 'Firebase Firestore', 'Google Maps API', 'Location Services', 'Google Ads', 'Jira' ],
 				},
 			],
 			ProjectDetailsHeading: 'Project Overview',
 			ProjectDetails: [
-				{ details: `This project is a blockchain-based donation platform designed to provide users and charities with a secure, transparent, and efficient way to engage in charitable contributions. By leveraging blockchain technology, the platform ensures that donations made in cryptocurrency are traceable, secure, and decentralized, enhancing trust and transparency for both donors and charities.` },
-				{ details: `Key Features` },
-				{ details: `1. Home Page: The home page serves as the main entry point for users, offering an overview of the platform's mission and purpose. Visitors can learn about the benefits of using blockchain for donations, explore featured charities, and understand how the platform works.` },
-				{ details: `2. Donation Page: The donation page allows users to easily donate using various cryptocurrencies. Users can browse a list of verified charities added to the platform, view detailed profiles of each charity, and contribute directly to the causes they care about. All donations are securely processed through the blockchain, ensuring transparency and trust.` },
-				{ details: `3. Charity List: Users can access a dedicated page that displays all the registered charities on the platform. Each charity has its own profile, which includes its mission, goals, and a description of its cause. This page allows users to make informed decisions when selecting which charities to support.` },
-				{ details: `4. Login and Signup Page: Both users and charities can either log in or sign up through this page. The platform offers two types of accounts:\n    • User Account: Allows individuals to donate to different charities, view their donation history, and explore new causes.\n    • Charity Account: Allows charities to manage their profiles, set donation goals, and view detailed analytics on how many people have donated to their cause.` },
-				{ details: `5. Charity Dashboard: Once logged in, charities gain access to a dashboard where they can monitor their donations. Charities can: \n	• See how many people have donated to their cause.\n	• Set a donation goal to track fundraising progress.\n	• Update their profile with a detailed description of their mission and cause.` },
-				{ details: `6. User Experience: After signing in, users can:\n	• Browse the list of registered charities and explore their profiles.\n	• Make cryptocurrency donations to the charities they wish to support.\n	• Track their donation history, ensuring full transparency over their contributions.` },
-				{ details: `Blockchain Integration\nThe platform uses blockchain technology to handle all transactions, providing:\n	• Security: Every transaction is encrypted and verified on the blockchain, making it highly secure.\n	• Transparency: Users can track their donations, ensuring that funds are reaching the intended charity without any middlemen.\n	• Trust: The decentralized nature of blockchain reduces the potential for fraud, creating a transparent and trustworthy environment for donations.` },
-				{ details: `Conclusion\nThis project aims to revolutionize the way donations are made by providing a blockchain-based solution that benefits both users and charities. By enhancing security and transparency, it empowers users to contribute with confidence and helps charities reach their fundraising goals more effectively.` },
+				{ details: `Project Description:` },
+				{ details: `EventScape is a comprehensive event discovery and ticketing platform designed to provide users with a seamless experience for finding and purchasing tickets for nearby events and concerts. With its intuitive interface and powerful features, EventScape allows users to explore events happening around them, filter events based on preferences, view detailed event information, and make secure purchases directly within the app. Additionally, users can manage their profile, favorite events, and view purchase history, all within the app.` },
+				{ details: `The platform leverages Android native technologies alongside Firebase for authentication, data management, and cloud storage, ensuring a fast and secure experience for users. By integrating Google Maps and location services, EventScape delivers location-based event discovery with real-time distance calculations, while push notifications and promo codes keep users engaged with personalized updates.` },
+				{ details: `Key Features:` },
+				{ details: `1. User Authentication and Profile Management:\n• Users can sign up, log in, or recover their password using Firebase Authentication.\n• Profile screen allows users to upload profile pictures, update contact information, and view their event activity.\n• Users can edit their personal details such as name and email and manage payment information.` },
+				{ details: `2. Event Discovery and Exploration:\n• Home screen displays a curated list of events happening nearby.\n• Explore screen features a map-based view of events, with location markers for easy navigation.\n• Search functionality to find events by title or location.` },
+				{ details: `3. Event Details and Ticket Purchase:\n• Event details screen provides users with complete event information including date, time, location, description, and ticket pricing.\n• Users can favorite events for later reference or purchase tickets directly from the app.\n• Real-time distance calculation using location services helps users plan their attendance.` },
+				{ details: `4. Purchasing and Payment Integration:\n• Users can securely purchase tickets using multiple payment options (Credit/Debit Card, PayPal, Bank Transfer).\n• Integrated card scanning feature allows users to quickly retrieve their payment card information.\n• Saved payments are stored securely in Firebase, enabling quick checkouts for future purchases.` },
+				{ details: `5. User Interaction and Notifications:\n• Push notifications alert users of upcoming events, ticket deals, and updates about their purchases.\n• My Messages screen stores a history of notifications for easy access.` },
+				{ details: `6. Favorites and Event Management:\n• Users can favorite events by clicking a heart icon, which stores them in the Favorite List for future reference.\n• My Events section displays all the events created by the user, allowing them to manage and edit their posts.` },
+				{ details: `7. Purchase Summary and History:\n• Users can view their purchase history in a structured format, with details on each ticket bought.\n• Barcode generation for purchased tickets ensures seamless check-in at events.\n• Purchase Summary screen offers a final overview before confirmation, including quantity adjustment features.` },
+				{ details: `8. Settings and Customization:\n• The Settings screen provides users with multiple options such as payment management, privacy policy, and help/support features.\n• Dynamic UI adjustments ensure the app scales well across different devices and screen sizes.` },
+				{ details: `9. Promo Codes and User Balance:\n• Users can redeem promo codes for discounts on event tickets.\n• The User Balance feature allows users to track credits earned from selling tickets and manage payments.` },
+				{ details: `10. Ads and Monetization:\n• Integrated Google Ads (for testing) ensure the app's monetization strategy, with plans for further optimization.` },
+				{ details: `Development Process:` },
+				{ details: `EventScape was developed following the Agile methodology, with a total of 12 sprints that focused on key deliverables and continuous iteration. Key milestones included:\n• Sprint 1-2: Project setup in Jira and GitHub, UI/UX research, splash screen, login/signup/forgot password implementation.\n• Sprint 3-4: Home screen, Add Event activity, multi-screen fragment implementation, event details screen, and profile management.\n• Sprint 5-6: Profile improvements, purchase history, geolocation services, search functionality, purchase summary, and confirmation alerts.\n• Sprint 7-9: Explore screen (Google Maps integration), barcode generation for ticket purchases, payment screen enhancements, and dynamic UI updates.\n• Sprint 10-12: Bug fixes, final UI improvements, card scanning for payment, and overall system optimization.` },
+				{ details: `Challenges and SOlutions` },
+				{ details: `1. Bug in Google Maps Integration:\nInitially, the app faced crashes during map usage. The issue was resolved through error handling and optimization in location services and map marker rendering.` },
+				{ details: `2. Payment Screen Optimization:\nImplementing a dynamic UI that adjusts to all screen sizes was challenging. This was solved by refining the layout using responsive design principles and thorough testing on various devices.` },
+				{ details: `3. Firebase Sync Issues:Syncing user data across the app posed challenges, particularly with real-time updates. This was mitigated by implementing Firebase Firestore's offline persistence and optimizing query usage.` },
+				{ details: `Conclusion:` },
+				{ details: `EventScape is a robust and user-centric platform that offers a complete event discovery and ticket purchasing experience. Through careful design and iterative development, the app not only ensures convenience for users but also provides event organizers with a platform to reach a wider audience. The integration of location services, secure payments, and personalized notifications positions EventScape as a powerful tool for event-goers and organizers alike.` },
 			],
 			SocialSharingHeading: 'Share This',
 			SocialSharing: [
@@ -148,7 +185,10 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 3, title: 'Campsite Booker', img: campsitebooker },
+				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 5, title: 'Rentic', img: rentic },
+				{ id: 6, title: 'ChatBrewery', img: chatbrewery },
+				{ id: 7, title: 'MovieScape', img: moviescape },
 			],
 		},
 	},
@@ -201,7 +241,7 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 2, title: 'CharityChain', img: charitychain },
+				{ id: 8, title: 'CharityChain', img: charitychain },
 			],
 		},
 	},
@@ -254,7 +294,7 @@ export const singleProjectData = [
 			title: 'Related Projects',
 			Projects: [
 				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
-				{ id: 2, title: 'CharityChain', img: charitychain },
+				{ id: 8, title: 'CharityChain', img: charitychain },
 				{ id: 3, title: 'Campsite Booker', img: campsitebooker },
 				{ id: 4, title: 'Country Detail', img: countrydetail },
 			],
@@ -309,7 +349,9 @@ export const singleProjectData = [
 			title: 'Related Projects',
 			Projects: [
 				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 2, title: 'EventScape', img: eventscape },
 				{ id: 6, title: 'ChatBrewery', img: chatbrewery },
+				{ id: 7, title: 'MovieScape', img: moviescape }
 			],
 		},
 	},
@@ -370,6 +412,7 @@ export const singleProjectData = [
 			title: 'Related Projects',
 			Projects: [
 				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 2, title: 'EventScape', img: eventscape },
 				{ id: 5, title: 'Rentic', img: rentic },
 				{ id: 7, title: 'MovieScape', img: moviescape },
 			],
@@ -424,8 +467,61 @@ export const singleProjectData = [
 			title: 'Related Projects',
 			Projects: [
 				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 2, title: 'EventScape', img: eventscape },
 				{ id: 5, title: 'Rentic', img: rentic },
 				{ id: 6, title: 'ChatBrewery', img: chatbrewery },
+			],
+		},
+	},
+	{	
+		id: 8,
+		ProjectHeader: {
+			title: 'CharityChain',
+			publishDate: 'Jul 26, 2023',
+			tags: 'UI / Frontend',
+		},
+		ProjectImages: [{ img: charitychain1 }, { img: charitychain2 }, { img: charitychain3 }, { img: charitychain4 }, { img: charitychain5 }, { img: charitychain6 }],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: 
+			[
+				{ title: 'Name', details: 'Powell' },
+				{ title: 'Services', details: 'Blockchain Web Development' },
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'Develop a secure blockchain-based donation platform that allows users and charities to log in, facilitating direct donations using cryptocurrency. The system ensures transparency, security, and traceability for all transactions, providing a trusted environment for charitable contributions.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [ 'Javascript', 'CSS', 'HTML', 'Firebase Firestore' ],
+				},
+			],
+			ProjectDetailsHeading: 'Project Overview',
+			ProjectDetails: [
+				{ details: `This project is a blockchain-based donation platform designed to provide users and charities with a secure, transparent, and efficient way to engage in charitable contributions. By leveraging blockchain technology, the platform ensures that donations made in cryptocurrency are traceable, secure, and decentralized, enhancing trust and transparency for both donors and charities.` },
+				{ details: `Key Features` },
+				{ details: `1. Home Page: The home page serves as the main entry point for users, offering an overview of the platform's mission and purpose. Visitors can learn about the benefits of using blockchain for donations, explore featured charities, and understand how the platform works.` },
+				{ details: `2. Donation Page: The donation page allows users to easily donate using various cryptocurrencies. Users can browse a list of verified charities added to the platform, view detailed profiles of each charity, and contribute directly to the causes they care about. All donations are securely processed through the blockchain, ensuring transparency and trust.` },
+				{ details: `3. Charity List: Users can access a dedicated page that displays all the registered charities on the platform. Each charity has its own profile, which includes its mission, goals, and a description of its cause. This page allows users to make informed decisions when selecting which charities to support.` },
+				{ details: `4. Login and Signup Page: Both users and charities can either log in or sign up through this page. The platform offers two types of accounts:\n    • User Account: Allows individuals to donate to different charities, view their donation history, and explore new causes.\n    • Charity Account: Allows charities to manage their profiles, set donation goals, and view detailed analytics on how many people have donated to their cause.` },
+				{ details: `5. Charity Dashboard: Once logged in, charities gain access to a dashboard where they can monitor their donations. Charities can: \n	• See how many people have donated to their cause.\n	• Set a donation goal to track fundraising progress.\n	• Update their profile with a detailed description of their mission and cause.` },
+				{ details: `6. User Experience: After signing in, users can:\n	• Browse the list of registered charities and explore their profiles.\n	• Make cryptocurrency donations to the charities they wish to support.\n	• Track their donation history, ensuring full transparency over their contributions.` },
+				{ details: `Blockchain Integration\nThe platform uses blockchain technology to handle all transactions, providing:\n	• Security: Every transaction is encrypted and verified on the blockchain, making it highly secure.\n	• Transparency: Users can track their donations, ensuring that funds are reaching the intended charity without any middlemen.\n	• Trust: The decentralized nature of blockchain reduces the potential for fraud, creating a transparent and trustworthy environment for donations.` },
+				{ details: `Conclusion\nThis project aims to revolutionize the way donations are made by providing a blockchain-based solution that benefits both users and charities. By enhancing security and transparency, it empowers users to contribute with confidence and helps charities reach their fundraising goals more effectively.` },
+			],
+			SocialSharingHeading: 'Share This',
+			SocialSharing: [
+				{ id: 1, name: 'Twitter', icon: <FiTwitter />, url: 'https://twitter.com/' },
+				{ id: 2, name: 'Instagram', icon: <FiInstagram />, url: 'https://instagram.com/' },
+				{ id: 3, name: 'Facebook', icon: <FiFacebook />, url: 'https://facebook.com/' },
+				{ id: 4, name: 'LinkedIn', icon: <FiLinkedin />, url: 'https://linkedin.com/' },
+				{ id: 5, name: 'Youtube', icon: <FiYoutube />, url: 'https://www.youtube.com/' },
+			],
+		},
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+				{ id: 3, title: 'Campsite Booker', img: campsitebooker },
 			],
 		},
 	},

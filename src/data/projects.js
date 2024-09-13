@@ -1,6 +1,7 @@
 // Import images
 import rentic from '../images/projects/rentic/rentic.png'
 import charitychain from '../images/projects/charitychain/main.png'
+import eventscape from '../images/projects/eventscape/eventscape.png'
 import moviescape from '../images/projects/moviescape/moviescape.png'
 import countrydetail from '../images/projects/country-detail/main.png'
 import campsitebooker from '../images/projects/campsite-booker/main.png'
@@ -22,13 +23,13 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		title: 'CharityChain',
-		category: 'Blockchain Web Application',
-		img: charitychain,
+		title: 'EventScape',
+		category: 'Android Application',
+		img: eventscape,
 		ProjectHeader: {
-			title: 'CharityChain',
-			publishDate: 'Jul 26, 2021',
-			tags: ' UI / Frontend',
+			title: 'EventScape',
+			publishDate: 'Dec 09, 2022',
+			tags: 'Android / Mobile / UI / Frontend',
 		},
 	},
 	{
@@ -84,6 +85,17 @@ export const projectsData = [
 			title: 'MovieScape',
 			publishDate: 'Oct 25, 2022',
 			tags: 'React Native / Android / Mobile / UI / Frontend',
+		},
+	},
+	{
+		id: 8,
+		title: 'CharityChain',
+		category: 'Blockchain Web Application',
+		img: charitychain,
+		ProjectHeader: {
+			title: 'CharityChain',
+			publishDate: 'Jul 26, 2021',
+			tags: ' UI / Frontend',
 		},
 	},
 ];
