@@ -62,6 +62,12 @@ import charitychain4 from '../images/projects/charitychain/donate.png'
 import charitychain5 from '../images/projects/charitychain/donations-list.png'
 import charitychain6 from '../images/projects/charitychain/signup.png'
 
+// GodLikeTools Images
+import godliketools1 from '../images/projects/godliketools/godliketools1.png'
+import godliketools2 from '../images/projects/godliketools/godliketools2.png'
+import godliketools3 from '../images/projects/godliketools/godliketools3.png'
+import godliketools4 from '../images/projects/godliketools/godliketools4.png'
+
 // Import icons
 import {
 	FiFacebook,
@@ -241,7 +247,7 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 8, title: 'CharityChain', img: charitychain },
+				{ id: 9, title: 'GodLikeTools', img: godliketools1 },
 			],
 		},
 	},
@@ -508,6 +514,51 @@ export const singleProjectData = [
 				{ details: `6. User Experience: After signing in, users can:\n	• Browse the list of registered charities and explore their profiles.\n	• Make cryptocurrency donations to the charities they wish to support.\n	• Track their donation history, ensuring full transparency over their contributions.` },
 				{ details: `Blockchain Integration\nThe platform uses blockchain technology to handle all transactions, providing:\n	• Security: Every transaction is encrypted and verified on the blockchain, making it highly secure.\n	• Transparency: Users can track their donations, ensuring that funds are reaching the intended charity without any middlemen.\n	• Trust: The decentralized nature of blockchain reduces the potential for fraud, creating a transparent and trustworthy environment for donations.` },
 				{ details: `Conclusion\nThis project aims to revolutionize the way donations are made by providing a blockchain-based solution that benefits both users and charities. By enhancing security and transparency, it empowers users to contribute with confidence and helps charities reach their fundraising goals more effectively.` },
+			],
+			SocialSharingHeading: 'Share This',
+			SocialSharing: [
+				{ id: 1, name: 'Twitter', icon: <FiTwitter />, url: 'https://twitter.com/' },
+				{ id: 2, name: 'Instagram', icon: <FiInstagram />, url: 'https://instagram.com/' },
+				{ id: 3, name: 'Facebook', icon: <FiFacebook />, url: 'https://facebook.com/' },
+				{ id: 4, name: 'LinkedIn', icon: <FiLinkedin />, url: 'https://linkedin.com/' },
+				{ id: 5, name: 'Youtube', icon: <FiYoutube />, url: 'https://www.youtube.com/' },
+			],
+		},
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+				{ id: 3, title: 'Campsite Booker', img: campsitebooker },
+			],
+		},
+	},
+	{	
+		id: 9,
+		ProjectHeader: {
+			title: 'GodLikeTools',
+			publishDate: 'Nov 19, 2019',
+			tags: 'Frontend',
+		},
+		ProjectImages: [{ img: godliketools2 }, { img: godliketools3 }, { img: godliketools4 }],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: 
+			[
+				{ title: 'Name', details: 'Freelance Project' },
+				{ title: 'Services', details: 'Game Mod Application' },
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'Developed a specialized Minecraft toolset plugin, enhancing gameplay efficiency with features like trench picks, blast shovels, harvester hoes, and more, designed to improve item usage and resource collection.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [ 'Java' ],
+				},
+			],
+			ProjectDetailsHeading: 'Project Overview',
+			ProjectDetails: [
+				{ details: `The GodLikeTools project is a Minecraft plugin designed to enhance gameplay by offering a variety of specialized tools aimed at improving resource collection and terrain modification. The plugin includes features like trench picks for efficient digging, blast shovels for quick excavation, harvester hoes for automated farming, and other tools such as tray picks, sand wands, and chunk busters. Each tool is optimized for performance, making large-scale tasks faster and more manageable for players, improving overall gameplay efficiency and customization.` },
+				{ details: `I sold over hundreds of copies for this game plugin, more information can be found here where i published the project: ` },
+				{ details: `https://builtbybit.com/threads/%E2%9A%92-godliketools-%E2%9A%92-trench-picks-blast-shovels-tray-picks-harvester-hoe-sand-wand-chunk-busters.518125/` },
 			],
 			SocialSharingHeading: 'Share This',
 			SocialSharing: [

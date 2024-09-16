@@ -6,6 +6,7 @@ import moviescape from '../images/projects/moviescape/moviescape.png'
 import countrydetail from '../images/projects/country-detail/main.png'
 import campsitebooker from '../images/projects/campsite-booker/main.png'
 import chatbrewery from '../images/projects/chatbrewery/chatbrewery.png'
+import godliketools1 from '../images/projects/godliketools/godliketools1.png'
 import onchainInvesting from '../images/projects/onchain-investing/onchain-investing-1.jpg'
 
 
@@ -95,7 +96,18 @@ export const projectsData = [
 		ProjectHeader: {
 			title: 'CharityChain',
 			publishDate: 'Jul 26, 2021',
-			tags: ' UI / Frontend',
+			tags: 'UI / Frontend',
+		},
+	},
+	{
+		id: 9,
+		title: 'GodLikeTools',
+		category: 'Game Mod Application',
+		img: godliketools1,
+		ProjectHeader: {
+			title: 'CharityChain',
+			publishDate: 'Nov 19, 2019',
+			tags: 'Frontend',
 		},
 	},
 ];
