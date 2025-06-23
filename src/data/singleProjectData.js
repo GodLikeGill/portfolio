@@ -68,6 +68,11 @@ import godliketools2 from '../images/projects/godliketools/godliketools2.png'
 import godliketools3 from '../images/projects/godliketools/godliketools3.png'
 import godliketools4 from '../images/projects/godliketools/godliketools4.png'
 
+// MatchPair Images
+import matchpair1 from '../images/projects/matchpair/matchpair1.png'
+import matchpair2 from '../images/projects/matchpair/matchpair2.png'
+import matchpair3 from '../images/projects/matchpair/matchpair3.png'
+
 // Import icons
 import {
 	FiFacebook,
@@ -80,6 +85,67 @@ import {
 export const singleProjectData = [
 	{	
 		id: 1,
+		ProjectHeader: {
+			title: 'Match Pair',
+			publishDate: 'Jun 19, 2025',
+			tags: 'Android / Mobile / UI / Frontend / Game',
+		},
+		ProjectImages: [{ img: matchpair1 }, { img: matchpair2 }, { img: matchpair3 }],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: 
+			[
+				{ title: 'Personal Project', details: 'A match pair card game' },
+				{ title: 'Services', details: 'Android Application (Game)' },
+				{ title: 'Website', details: 'https://github.com/GodLikeGill/Match-Pair' },
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'The objective of this project was to design and develop a fun, fast-paced memory card matching game for Android users using the latest tools and frameworks. The game encourages users to test and improve their memory skills under timed pressure.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [ 'Kotlin', 'Android', 'Android Studio', 'Firebase Firestore' ],
+				},
+			],
+			ProjectDetailsHeading: 'Project Overview',
+			ProjectDetails: [
+				{ details: `This project is a fully functional, modern Android memory card game built using Kotlin and Jetpack Compose. Designed with an emphasis on clean UI, smooth performance, and game logic, the application provides users with an engaging and challenging gameplay experience.` },
+				{ details: `Key Features:` },
+				{ details: `• 🎮 Interactive Memory Game: Users flip and match pairs of cards by memory within a timed session.` },
+				{ details: `• 🕹️ Game Controls: Players can start a new game, access settings, or quit at any time.` },
+				{ details: `• ⏱️ Game Timer Logic: A real-time countdown challenges users to match all cards before time runs out.` },
+				{ details: `• 🧠 Core Gameplay Mechanics: If two flipped cards match (e.g., two jokers), they stay flipped; otherwise, they reset.` },
+				{ details: `• 📱 Jetpack Compose UI: The entire UI is built using modern declarative UI practices, ensuring a responsive, adaptive design.` },
+				{ details: `• 🛠️ Modern Android Tech Stack:` },
+				{ details: `	• Kotlin` },
+				{ details: `	• Jetpack Compose` },
+				{ details: `	• State management` },
+				{ details: `	• Custom animations & game logic` },
+				{ details: `• 📸 Attached Screenshots: High-quality visuals of the game screens and UI flow are included to demonstrate the design and functionality.` },
+				{ details: `• 🔄 Scalable Logic: The game logic is modular and scalable for future levels, themes, or multiplayer modes.` },
+				{ details: `• This project serves as a strong example of Android app architecture and game logic integration using the latest Android development practices. It reflects proficiency in Jetpack Compose and attention to detail in both design and user interaction.` },
+			],
+			SocialSharingHeading: 'Share This',
+			SocialSharing: [
+				{ id: 1, name: 'Twitter', icon: <FiTwitter />, url: 'https://twitter.com/' },
+				{ id: 2, name: 'Instagram', icon: <FiInstagram />, url: 'https://instagram.com/' },
+				{ id: 3, name: 'Facebook', icon: <FiFacebook />, url: 'https://facebook.com/' },
+				{ id: 4, name: 'LinkedIn', icon: <FiLinkedin />, url: 'https://linkedin.com/' },
+				{ id: 5, name: 'Youtube', icon: <FiYoutube />, url: 'https://www.youtube.com/' },
+			],
+		},
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+				{ id: 2, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 3, title: 'EventScape', img: eventscape },
+				{ id: 6, title: 'Rentic', img: rentic },
+				{ id: 7, title: 'ChatBrewery', img: chatbrewery },
+			],
+		},
+	},
+	{	
+		id: 2,
 		ProjectHeader: {
 			title: 'Onchain Investing',
 			publishDate: 'Jul 26, 2024',
@@ -123,15 +189,15 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 2, title: 'EventScape', img: eventscape },
-				{ id: 5, title: 'Rentic', img: rentic },
-				{ id: 6, title: 'ChatBrewery', img: chatbrewery },
-				{ id: 7, title: 'MovieScape', img: moviescape },
+				{ id: 3, title: 'EventScape', img: eventscape },
+				{ id: 6, title: 'Rentic', img: rentic },
+				{ id: 7, title: 'ChatBrewery', img: chatbrewery },
+				{ id: 8, title: 'MovieScape', img: moviescape },
 			],
 		},
 	},
 	{	
-		id: 2,
+		id: 3,
 		ProjectHeader: {
 			title: 'EventScape',
 			publishDate: 'Dec 09, 2022',
@@ -191,15 +257,15 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
-				{ id: 5, title: 'Rentic', img: rentic },
-				{ id: 6, title: 'ChatBrewery', img: chatbrewery },
-				{ id: 7, title: 'MovieScape', img: moviescape },
+				{ id: 2, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 6, title: 'Rentic', img: rentic },
+				{ id: 7, title: 'ChatBrewery', img: chatbrewery },
+				{ id: 8, title: 'MovieScape', img: moviescape },
 			],
 		},
 	},
 	{	
-		id: 3,
+		id: 4,
 		ProjectHeader: {
 			title: 'Campsite Booker',
 			publishDate: 'Jul 14, 2022',
@@ -247,12 +313,12 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 9, title: 'GodLikeTools', img: godliketools1 },
+				{ id: 10, title: 'GodLikeTools', img: godliketools1 },
 			],
 		},
 	},
 	{	
-		id: 4,
+		id: 5,
 		ProjectHeader: {
 			title: 'Country Detail',
 			publishDate: 'Oct 24, 2022',
@@ -299,15 +365,15 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
-				{ id: 8, title: 'CharityChain', img: charitychain },
-				{ id: 3, title: 'Campsite Booker', img: campsitebooker },
-				{ id: 4, title: 'Country Detail', img: countrydetail },
+				{ id: 2, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 9, title: 'CharityChain', img: charitychain },
+				{ id: 4, title: 'Campsite Booker', img: campsitebooker },
+				{ id: 5, title: 'Country Detail', img: countrydetail },
 			],
 		},
 	},
 	{	
-		id: 5,
+		id: 6,
 		ProjectHeader: {
 			title: 'Rentic',
 			publishDate: 'Oct 24, 2022',
@@ -354,15 +420,15 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
-				{ id: 2, title: 'EventScape', img: eventscape },
-				{ id: 6, title: 'ChatBrewery', img: chatbrewery },
-				{ id: 7, title: 'MovieScape', img: moviescape }
+				{ id: 2, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 3, title: 'EventScape', img: eventscape },
+				{ id: 7, title: 'ChatBrewery', img: chatbrewery },
+				{ id: 8, title: 'MovieScape', img: moviescape }
 			],
 		},
 	},
 	{	
-		id: 6,
+		id: 7,
 		ProjectHeader: {
 			title: 'ChatBrewery',
 			publishDate: 'Aug 8, 2023',
@@ -417,15 +483,15 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
-				{ id: 2, title: 'EventScape', img: eventscape },
-				{ id: 5, title: 'Rentic', img: rentic },
-				{ id: 7, title: 'MovieScape', img: moviescape },
+				{ id: 2, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 3, title: 'EventScape', img: eventscape },
+				{ id: 6, title: 'Rentic', img: rentic },
+				{ id: 8, title: 'MovieScape', img: moviescape },
 			],
 		},
 	},
 	{	
-		id: 7,
+		id: 8,
 		ProjectHeader: {
 			title: 'MovieScape',
 			publishDate: 'Oct 25, 2022',
@@ -472,15 +538,15 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 1, title: 'Onchain Investing', img: onchainInvesting1 },
-				{ id: 2, title: 'EventScape', img: eventscape },
-				{ id: 5, title: 'Rentic', img: rentic },
-				{ id: 6, title: 'ChatBrewery', img: chatbrewery },
+				{ id: 2, title: 'Onchain Investing', img: onchainInvesting1 },
+				{ id: 3, title: 'EventScape', img: eventscape },
+				{ id: 6, title: 'Rentic', img: rentic },
+				{ id: 7, title: 'ChatBrewery', img: chatbrewery },
 			],
 		},
 	},
 	{	
-		id: 8,
+		id: 9,
 		ProjectHeader: {
 			title: 'CharityChain',
 			publishDate: 'Jul 26, 2023',
@@ -527,12 +593,12 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 3, title: 'Campsite Booker', img: campsitebooker },
+				{ id: 4, title: 'Campsite Booker', img: campsitebooker },
 			],
 		},
 	},
 	{	
-		id: 9,
+		id: 10,
 		ProjectHeader: {
 			title: 'GodLikeTools',
 			publishDate: 'Nov 19, 2019',
@@ -572,7 +638,7 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				{ id: 3, title: 'Campsite Booker', img: campsitebooker },
+				{ id: 4, title: 'Campsite Booker', img: campsitebooker },
 			],
 		},
 	},

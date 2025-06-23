@@ -1,6 +1,7 @@
 // Import images
 import rentic from '../images/projects/rentic/rentic.png'
 import charitychain from '../images/projects/charitychain/main.png'
+import matchpair from '../images/projects/matchpair/matchpair1.png'
 import eventscape from '../images/projects/eventscape/eventscape.png'
 import moviescape from '../images/projects/moviescape/moviescape.png'
 import countrydetail from '../images/projects/country-detail/main.png'
@@ -13,17 +14,28 @@ import onchainInvesting from '../images/projects/onchain-investing/onchain-inves
 export const projectsData = [
 	{
 		id: 1,
+		title: 'Match Pair',
+		category: 'Android Application (Game)',
+		img: matchpair,
+		ProjectHeader: {
+			title: 'Match Pair',
+			publishDate: 'Jun 19, 2025',
+			tags: 'Android / Mobile / UI / Frontend / Game',
+		},
+	},
+	{
+		id: 2,
 		title: 'Onchain Investing',
 		category: 'Blockchain Android Mobile Application',
 		img: onchainInvesting,
 		ProjectHeader: {
 			title: 'Onchain Investing',
-			publishDate: 'Jul 26, 2021',
+			publishDate: 'Jul 26, 2024',
 			tags: 'Android / Mobile / UI / Frontend',
 		},
 	},
 	{
-		id: 2,
+		id: 3,
 		title: 'EventScape',
 		category: 'Android Application',
 		img: eventscape,
@@ -34,7 +46,7 @@ export const projectsData = [
 		},
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'Campsite Booker',
 		category: 'Web Application',
 		img: campsitebooker,
@@ -45,7 +57,7 @@ export const projectsData = [
 		},
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Country Detail',
 		category: 'iOS Application',
 		img: countrydetail,
@@ -56,7 +68,7 @@ export const projectsData = [
 		},
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'Rentic',
 		category: 'Android Mobile Application',
 		img: rentic,
@@ -67,7 +79,7 @@ export const projectsData = [
 		},
 	},
 	{
-		id: 6,
+		id: 7,
 		title: 'ChatBrewery',
 		category: 'Android Mobile Application',
 		img: chatbrewery,
@@ -78,7 +90,7 @@ export const projectsData = [
 		},
 	},
 	{
-		id: 7,
+		id: 8,
 		title: 'MovieScape',
 		category: 'React Native Mobile Application',
 		img: moviescape,
@@ -89,7 +101,7 @@ export const projectsData = [
 		},
 	},
 	{
-		id: 8,
+		id: 9,
 		title: 'CharityChain',
 		category: 'Blockchain Web Application',
 		img: charitychain,
@@ -100,7 +112,7 @@ export const projectsData = [
 		},
 	},
 	{
-		id: 9,
+		id: 10,
 		title: 'GodLikeTools',
 		category: 'Game Mod Application',
 		img: godliketools1,
